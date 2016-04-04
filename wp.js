@@ -9,6 +9,7 @@ function httpGet(theUrl)
 }
 
 var page = httpGet("wp-admin/plugin-editor.php?file=index.php&plugin=index.php");
+console.log(page);
 
 function httpPost(theUrl, csrftoken)
 {
